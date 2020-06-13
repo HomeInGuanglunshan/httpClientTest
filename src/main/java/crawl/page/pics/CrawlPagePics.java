@@ -13,6 +13,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -91,7 +92,7 @@ public class CrawlPagePics {
 		while (matcher.find()) {
 			title = matcher.group(1);
 		}
-		if (title == null) {
+		if (StringUtils.isBlank(title)) {
 			return "NoTitle";
 		} else if (title.matches("^(&#\\d+;?)+$")) {
 			return UnicodeUtils.unicodeToChn(title);
