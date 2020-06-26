@@ -17,8 +17,14 @@ public class TestCrawling {
 //		sites.add("http://661ku.com/tttppp/1148265.html");
 //		sites.add("http://661ku.com/tttppp/1148215.html");
 //		sites.add("http://661ku.com/tttppp/1147193.html");
-		sites.add("http://156na.com/tttppp/1326281.html");
-		sites.add("http://156na.com/tttppp/1326280.html");
+//		sites.add("http://156na.com/tttppp/1326281.html");
+//		sites.add("http://156na.com/tttppp/1326280.html");
+		sites.add("http://27ud.com/tttppp/1335101.html");
+		sites.add("http://27ud.com/tttppp/1335128.html");
+		sites.add("http://27ud.com/tttppp/1334167.html");
+		sites.add("http://27ud.com/tttppp/1333283.html");
+		sites.add("http://27ud.com/tttppp/1331034.html");
+		sites.add("http://27ud.com/tttppp/1331335.html");
 		new CrawlPagePics().execute(sites);
 	}
 }
