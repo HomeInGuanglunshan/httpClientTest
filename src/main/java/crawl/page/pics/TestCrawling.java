@@ -41,12 +41,26 @@ public class TestCrawling {
 //		sites.add("http://27uf.com/27uf-tttppp/1361283.html");
 //		sites.add("http://27uf.com/27uf-tttppp/1361273.html");
 //		sites.add("http://27uf.com/27uf-tttppp/1361271.html");
-		sites.add("http://27uf.com/27uf-tttppp/1361267.html");
-		sites.add("http://27uf.com/27uf-tttppp/1361258.html");
-		sites.add("http://27uf.com/27uf-tttppp/1361255.html");
-		sites.add("http://27uf.com/27uf-tttppp/1359503.html");
-		sites.add("http://27uf.com/27uf-tttppp/1359500.html");
-		sites.add("http://27uf.com/27uf-tttppp/1359498.html");
+//		sites.add("http://27uf.com/27uf-tttppp/1361267.html");
+//		sites.add("http://27uf.com/27uf-tttppp/1361258.html");
+//		sites.add("http://27uf.com/27uf-tttppp/1361255.html");
+//		sites.add("http://27uf.com/27uf-tttppp/1359503.html");
+//		sites.add("http://27uf.com/27uf-tttppp/1359500.html");
+//		sites.add("http://27uf.com/27uf-tttppp/1359498.html");
+//		sites.add("http://113ae.com/113ae-tttppp/1354055.html");
+//		sites.add("http://113ae.com/113ae-tttppp/1357642.html");
+//		sites.add("http://113ae.com/113ae-tttppp/1359470.html");
+//		sites.add("http://113ae.com/113ae-tttppp/1362174.html");
+//		sites.add("http://113ae.com/113ae-tttppp/1364455.html");
+//		sites.add("http://113ae.com/113ae-tttppp/1364453.html");
+//		sites.add("http://113ae.com/113ae-tttppp/1365271.html");
+//		sites.add("http://113ae.com/113ae-tttppp/1365915.html");
+//		sites.add("http://113ae.com/113ae-tttppp/1365920.html");
+//		sites.add("http://113ae.com/113ae-tttppp/1366389.html");
+		sites.add("http://113ae.com/113ae-tttppp/1392702.html");
+		sites.add("http://113ae.com/113ae-tttppp/1392697.html");
+		sites.add("http://113ae.com/113ae-tttppp/1392691.html");
+		sites.add("http://113ae.com/113ae-tttppp/1392693.html");
 		new CrawlPagePics().execute(sites);
 	}
 }
