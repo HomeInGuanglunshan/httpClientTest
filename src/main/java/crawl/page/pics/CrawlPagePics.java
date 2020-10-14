@@ -25,7 +25,7 @@ public class CrawlPagePics {
 
 	String site = "http://661ku.com/tttppp/1152721.html";
 
-	String storageLocation = "F:/69978a714208088b5aeDFAFDA/sexy pictures/";
+	String storageLocation = "F:/pictures/beauty/sexy pictures/";
 
 	HttpClient client = HttpClientUtil.getHttpClient();
 
